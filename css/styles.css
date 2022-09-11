@@ -6,11 +6,13 @@ body {
 .title {
   background-color: #2f303a;
 }
-.button {
-  background: #2196f3;
+.buttonli {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   cursor: pointer;
+}
+.buttonli:hover {
+background-color: #2196f3;
 }
 .head {
   background-color: #ffffff;
