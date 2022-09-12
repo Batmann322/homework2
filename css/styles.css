@@ -1,40 +1,34 @@
-body {
-  font-family: "Roboto", sans-serif;
-  background-color: #e5e5e5;
-  line-height: 1.5;
+:root {
+    --background-color:#F5F5F5;
+    --background-color-nav:#FFFFFF;
+    --background-color-futer:#2F303A;
+    font-family: 'Roboto', sans-serif;
 }
-.title {
-  background-color: #2f303a;
+.webstudi{
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
 }
-.buttonli {
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-  cursor: pointer;
+.footer{
+    background-color:  var(--background-color-futer);
+    font-size: 14px;
 }
-.buttonli:hover {
-background-color: #2196f3;
+.title{
+    background-color: var(--background-color-futer);
 }
-.head {
-  background-color: #ffffff;
-  display:flex;
-  
+button{
+    cursor: pointer;
 }
-.team {
-  background-color: #f5f4fa;
+.buttonli{
+    width: 73px;
+    height: 38px;
 }
-.footer {
-  background-color: #2f303a;
-}
-li {
-  list-style-type: none;
-}
-.buttonli {
-  cursor: pointer;
-}
-.address {
-  font-style: "Roboto";
-}
-.navi {
-display:flex;
+.buttonli:hover{
+    background-color: #2196F3;
 }
 
+.button{
+    width: 216px;
+    height: 50px;
+    background-color: #2196F3;
+    color: #FFFFFF;
+}
