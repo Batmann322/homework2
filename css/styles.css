@@ -33,7 +33,13 @@ body{
 .list-itam >a{
     color: #212121;
 }
-
+.list-itam > a:hover,
+.list-itam > a:focus{
+    color: var(--blue);
+}
+.list-itam > .selected{
+    color: var(--blue);
+}
 .contacts{
     font-weight: 500;
     line-height: 1.14;
@@ -93,7 +99,14 @@ body{
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
-    color: #212121;;
+    color: #212121;
+}
+.team-itam{
+    background-color: #FFFFFF;;
+    width: 270px;
+}
+.team-section{
+    background-color: #F5F4FA;
 }
 .list-comand{
     font-weight: 500;
@@ -142,4 +155,7 @@ body{
 .li-span{
     font-size: 16px;
     line-height: 1.87;
+}
+.studio-bottom{
+    color: #FFFFFF;
 }
