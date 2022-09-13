@@ -70,6 +70,7 @@ body{
     font-size: 44px;
     line-height: 1.36;
     color: #FFFFFF;
+    text-align: center;
 }
 .button{
     width: 216px;
@@ -100,6 +101,7 @@ body{
     font-size: 36px;
     line-height: 1.16;
     color: #212121;
+    text-align: center;
 }
 .team-itam{
     background-color: #FFFFFF;;
@@ -113,10 +115,12 @@ body{
     font-size: 16px;
     line-height: 1.18;
     color: #212121;;
+    text-align: center;
 }
 .employee-position{
     font-size: 16px;
     line-height: 1.18;
+    text-align: center;
 }
 .footer{
     background-color: var(--grey);
@@ -140,11 +144,16 @@ body{
     font-size: 16px;
     background-color: var(--blue);
     line-height: 1.62;
+    background-color: #F5F4FA;;
+    border: 0ch;
 }
 .button-li:hover,
 .button-li:focus{
     cursor: pointer;
-    color: #FFFFFF  
+    color: #FFFFFF;
+    background-color: var(--blue);
+    
+ 
 }
 .li-title{
     font-weight: 700;
